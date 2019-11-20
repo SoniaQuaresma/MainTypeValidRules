@@ -9,3 +9,7 @@ Thus this repository covers the implementation of the afore mentioned rules in S
 
 D5_T6_2.pdf documents which rules were being covered - only to the content of a file and not to its format
 D11_T14_2.pdf covers its first implementation by the Portuguese NSI in SQL
+
+CreateTables.sql creates in your database all the tables required for the validation process and that are meant to store the rules, their specific paramaters for the current data being analysed and the validation logs
+
+ProcedureValida.sql provides you the code for executing the validation rules in SQL assuming the tables refered in CreateTables.sql exist.
